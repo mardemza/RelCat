@@ -1,0 +1,17 @@
+body{
+    padding: 50px;
+}
+
+.form-control{
+  padding: 10px;
+  border-radius: 5px;  
+  border: solid 1px #ddd;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:hover{
+    background: #ccc;
+    border: solid 5px #000;
+    transition: all 0.3s ease-in-out;
+}
+
