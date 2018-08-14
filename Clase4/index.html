@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vlidaciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <h1>Validaciones</h1>
+
+    <form action="/post.html" name="myForm" id="myForm" method="POST">
+
+        <fieldset>
+            <legend>Inciar Sesi&oacute;n</legend>
+
+            <input autocomplete="off" type="email" name="mail" id="mail" placeholder="Ingrese su correo" required>
+
+            <br><br>
+
+            <input type="password" name="pass" id="pass" placeholder="Ingrese su contraseña" required minlength="6">
+
+            <br><br>
+
+            <label for="register">Esta de acuerdo con la politica</label>
+            <input name="register" id="register" type="checkbox" />
+
+            <br><br>
+
+            <input type="text" id="areas" name="areas" list="areaslist" autocomplete="off">
+            <datalist name="areaslist" id="areaslist"></datalist>
+
+            <button type="button" id="btnSend">Enviar</button>
+            <button type="reset">Limpiar</button>
+
+        </fieldset>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
