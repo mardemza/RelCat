@@ -1,0 +1,9 @@
+{
+    "response": "OK",
+    "list":[
+        { "id": 1, "title": "Limon" },
+        { "id": 2, "title": "Naranja" },
+        { "id": 3, "title": "Mandarina" },
+        { "id": 4, "title": "Manzana" }
+      ]
+}
